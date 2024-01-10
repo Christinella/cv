@@ -1,0 +1,99 @@
+header {
+Background-color : #F2D022;
+Padding : 1 px;
+height: 200px ;
+}
+
+.flex {
+    display: flex
+}
+
+.center {
+    margin:  auto ;
+  }
+
+  #conteneur-header {
+    width: fit-content;
+  }
+
+  #photo-fleur {
+  width: 150px;
+  border-radius: 10%;
+  padding-top: 30px
+}
+  
+  #titre-header {
+    margin: 0px 0px 0px 15px;
+    padding-top: 50px
+
+}
+
+main {
+    display : flex
+}
+
+#col-laterale {
+    background-color : #e2c538;
+    Padding: 15px;
+    width: 20%;
+    padding-top: 25px;
+}
+h2{
+    padding-top: 10px;
+}
+#tel, #mail, #adresse, #fr, #ang, #HTML, #CSS, #JS, #PS, #IND, #IT {
+    list-style: none;
+    padding-top: 15px;
+}
+#tel:before, #mail:before, #adresse:before, #HTML:before, #CSS:before, #JS:before, #PS:before, #IND:before, #IT:before{
+    content: "";
+    background-size:100%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin: -2px 0 0 -30px;
+  }
+ 
+  #tel:before {
+    background-image: url(../image/tel.png);
+  }
+
+  #mail:before {
+    background-image: url(../image/mail.png);
+
+  }
+
+  #adresse:before {
+    background-image: url(../image/adresse.png);
+ }
+ 
+#HTML:before {
+  background-image: url(../image/html.png);
+}
+
+#CSS:before {
+  background-image: url(../image/css.png);
+
+}
+
+#JS:before {background-image: url(../image/java.png);
+}
+
+#PS:before {
+    background-image: url(../image/photoshop.png);
+  }
+  
+  #IND:before {
+    background-image: url(../image/indesign.png);
+  
+  }
+  
+  #IT:before {background-image: url(../image/illustrator.png);
+  }
+ #contenu {
+    background-color :rgb(255, 255, 255);
+    Padding: 15px;
+    width: 80%;
+    height: 1000px;
+    border: 2px solid rgb(149, 139, 33);
+}
